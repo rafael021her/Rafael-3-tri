@@ -1,5 +1,7 @@
 body {
-    background-color: yellow;
+    background-image: url("https://i.im.ge/2024/09/20/kM0IcJ.luzes-de-neon-gradientes-abstratas-23-2149279135.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: "Lato";
 }
 
@@ -13,6 +15,9 @@ body {
     height: 320px;
     flex-grow: 1;
     flex-basis: calc(33% -96px);
+    border-radius: 16px;
+    border: 5px solid yellow;
+    box-shadow: 20px 20px 40px gray;
 }
 
 footer{
@@ -46,4 +51,5 @@ footer p{
     margin: 0.6rem;
     font-size: 1vw;
     color:yellow;
+    box-shadow: 5px 10px 20px rgb(255, 238, 0);
 }
