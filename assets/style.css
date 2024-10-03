@@ -6,10 +6,9 @@ body {
 }
 
 #container {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-    padding: 4rem;
+     display: flex;
+     flex-wrap: wrap;
+     
 }
 
 .cartao {
@@ -17,8 +16,8 @@ body {
     background-color:black;
     height: 320px;
     flex-grow: 1;
-    flex-basis: calc(33% -96px);
-    border-radius: 16px;
+    flex-basis: calc(33% - 96px);
+    border-radius: 20px;
     border: 5px solid yellow;
     box-shadow: 20px 20px 40px gray;
 }
@@ -30,9 +29,7 @@ body {
 .cartao_conteudo_pergunta,
 .cartao_conteudo_resposta {
     backface-visibility: hidden;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+
 }
 
 footer{
@@ -86,6 +83,7 @@ footer p{
 .cartao_conteudo_resposta {
     transform: rotateY(180deg);
     backface-visibility: hidden;
+    
 
 }
 
