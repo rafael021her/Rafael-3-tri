@@ -8,7 +8,9 @@ body {
 #container {
      display: flex;
      flex-wrap: wrap;
-     
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
 
 .cartao {
@@ -78,6 +80,7 @@ footer p{
 .cartao_conteudo_resposta {
     color: yellow;
     font-weight: 1000;
+    margin-top: -200px;
     }
 
 .cartao_conteudo_resposta {
@@ -88,9 +91,9 @@ footer p{
 }
 
 .cartao_conteudo p {
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 90px;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 
