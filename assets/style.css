@@ -24,7 +24,7 @@ body {
     box-shadow: 20px 20px 40px gray;
 }
 
-.cartao:hover .cartao_conteudo {
+.cartao.active .cartao_conteudo {
     transform: rotateY(180deg);
 }
 
@@ -78,7 +78,7 @@ footer p{
 }
 
 .cartao_conteudo_resposta {
-    color: yellow;
+    color: pink;
     font-weight: 1000;
     margin-top: -200px;
     }
@@ -86,6 +86,7 @@ footer p{
 .cartao_conteudo_resposta {
     transform: rotateY(180deg);
     backface-visibility: hidden;
+    
     
 
 }
@@ -96,5 +97,7 @@ footer p{
     margin-top: 0px;
 }
 
+@media (max-widht: 560px) {
 
+}
  

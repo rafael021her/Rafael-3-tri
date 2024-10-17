@@ -15,3 +15,9 @@ criaCartao (
     'O que é Placa-mãe?',
     'Placa-mãe é o "coração" do computador',
 )
+
+criaCartao (
+    'Inglês',
+    'Como é carro em Inglês?',
+    'Carro em Inglês é CAR',
+)
