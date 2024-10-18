@@ -97,7 +97,23 @@ footer p{
     margin-top: 0px;
 }
 
-@media (max-widht: 560px) {
 
+@media (max-width: 560spx) {
+
+    body {
+        background: url('https://i.im.ge/2024/10/18/kABva8.kM0IcJ-luzes-de-neon-gradientes-abstratas-23-2149279135.jpeg');
+    }
+    
+    .cartao {
+        flex: 1 0 calc(100% - 1rem);
+    }
+    
+    .cartao__conteudo h3 {
+        font-size: 3vw;
+    }
+    
+    .cartao__conteudo p {
+        font-size: 3.8vw;
+    }
 }
  
